@@ -45,13 +45,13 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: 'easeOut' }}
             className="text-center lg:text-left"
           >
-            {/* Badge */}
+            {/* Badge
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2, duration: 0.5 }}
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-dark-300 mb-6"
-            >
+            > */}
               <Sparkles size={14} className="text-primary-400" />
               {/* <span>Available for opportunities</span> */}
             </motion.div>
