@@ -53,7 +53,7 @@ const Hero = () => {
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-dark-300 mb-6"
             >
               <Sparkles size={14} className="text-primary-400" />
-              <span>Available for opportunities</span>
+              {/* <span>Available for opportunities</span> */}
             </motion.div>
 
             {/* Name */}
@@ -141,8 +141,8 @@ const Hero = () => {
               className="mt-8 flex items-center justify-center lg:justify-start gap-4"
             >
               {[
-                { name: 'GitHub', url: socialLinks.github, icon: 'GH' },
-                { name: 'LinkedIn', url: socialLinks.linkedin, icon: 'LI' },
+                { name: 'GitHub', url: "https://github.com/saramxhk10-coder", icon: 'GH' },
+                { name: 'LinkedIn', url: "https://www.linkedin.com/in/saram-sheikh10/", icon: 'LI' },
                 { name: 'Twitter', url: socialLinks.twitter, icon: 'X' },
               ].map((social) => (
                 <a

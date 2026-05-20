@@ -90,7 +90,7 @@ const Navbar = ({ activeSection, isDark, toggleTheme }) => {
               {/* Social icons - desktop */}
               <div className="hidden md:flex items-center gap-1">
                 <a
-                  href={socialLinks.github}
+                  href={"https://github.com/saramxhk10-coder"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 text-dark-400 hover:text-white transition-colors rounded-lg hover:bg-white/5"
@@ -98,7 +98,7 @@ const Navbar = ({ activeSection, isDark, toggleTheme }) => {
                   <Github size={18} />
                 </a>
                 <a
-                  href={socialLinks.linkedin}
+                  href={"www.linkedin.com/in/saram-sheikh10/"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-2 text-dark-400 hover:text-white transition-colors rounded-lg hover:bg-white/5"

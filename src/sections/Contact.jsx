@@ -138,8 +138,8 @@ const Contact = () => {
               <h3 className="text-lg font-semibold text-white mb-4">Social Profiles</h3>
               <div className="grid grid-cols-3 gap-3">
                 {[
-                  { name: 'GitHub', url: socialLinks.github, icon: Github, color: 'hover:text-white', bg: 'hover:bg-white/10' },
-                  { name: 'LinkedIn', url: socialLinks.linkedin, icon: Linkedin, color: 'hover:text-[#0A66C2]', bg: 'hover:bg-[#0A66C2]/10' },
+                  { name: 'GitHub', url: "https://github.com/saramxhk10-coder", icon: Github, color: 'hover:text-white', bg: 'hover:bg-white/10' },
+                  { name: 'LinkedIn', url: "https://www.linkedin.com/in/saram-sheikh10/", icon: Linkedin, color: 'hover:text-[#0A66C2]', bg: 'hover:bg-[#0A66C2]/10' },
                   { name: 'Twitter', url: socialLinks.twitter, icon: Twitter, color: 'hover:text-[#1DA1F2]', bg: 'hover:bg-[#1DA1F2]/10' },
                 ].map((social) => (
                   <a

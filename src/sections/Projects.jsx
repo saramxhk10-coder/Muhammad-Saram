@@ -144,7 +144,7 @@ const Projects = () => {
                   {/* Actions */}
                   <div className="flex flex-wrap gap-3">
                     <a
-                      href={featuredProject.github}
+                      href={"https://github.com/saramxhk10-coder/Smart-ad-Suite"}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-4 py-2.5 bg-white/5 border border-white/10 rounded-xl text-sm text-white hover:bg-white/10 transition-colors"
@@ -223,7 +223,7 @@ const Projects = () => {
                 {/* Actions */}
                 <div className="flex gap-3">
                   <a
-                    href={project.github}
+                    href={"https://github.com/saramxhk10-coder/Muhammad-Saram"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-1.5 text-dark-400 hover:text-white text-sm transition-colors"
