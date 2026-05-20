@@ -223,7 +223,7 @@ const Projects = () => {
                 {/* Actions */}
                 <div className="flex gap-3">
                   <a
-                    href={"https://github.com/saramxhk10-coder/Muhammad-Saram"}
+                    href={"project.github"}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-1.5 text-dark-400 hover:text-white text-sm transition-colors"
